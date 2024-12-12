@@ -1,0 +1,222 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8e8; /* Tono amarillo más suave */
+}
+header {
+  background-color: rgb(122, 124, 15); /* Color de fondo */
+  padding: 15px 0; /* Espaciado superior e inferior */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar relieve */
+}
+
+header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+header .nav-link {
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+  color: #ddd; /* Color más claro al pasar el cursor */
+}
+
+header img {
+  max-width: 180px;
+  height: auto;
+}
+
+
+#pie {
+  background-color: #f8f9fa; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+  border-top: 2px solid #007bff; /* Línea decorativa superior */
+}
+
+#pie h4 {
+  color: #007bff; /* Color de los encabezados */
+}
+
+#pie a img {
+  transition: transform 0.3s ease; /* Efecto suave al pasar el cursor */
+}
+
+#pie a img:hover {
+  transform: scale(1.1); /* Ampliación al pasar el cursor */
+}
+
+#pie p {
+  margin: 0;
+  font-size: 0.9rem; /* Texto compacto */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #piepadre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #padreredes {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+/* Estilos generales para la sección "Quiénes Somos" */
+#quienessomos {
+  background-color: #f9f9f9; /* Fondo suave para destacar la sección */
+  padding: 60px 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados para darle un toque moderno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para separar la sección */
+}
+
+/* Encabezados */
+#quienessomos h1 {
+  font-size: 2.5rem; /* Tamaño destacado */
+  font-weight: bold;
+  color: #333; /* Color oscuro para contraste */
+  margin-bottom: 20px;
+}
+
+#quienessomos h2 {
+  font-size: 1.8rem; /* Subtítulo más pequeño que el título principal */
+  font-weight: 600;
+  color: #555; /* Gris oscuro */
+  margin-bottom: 15px;
+}
+
+/* Texto */
+#quienessomos p {
+  font-size: 1.2rem; /* Texto cómodo de leer */
+  line-height: 1.6; /* Mejor separación entre líneas */
+  color: #666; /* Gris suave */
+  text-align: justify; /* Justificado para aspecto profesional */
+  margin: 0 auto; /* Centrar texto en dispositivos grandes */
+  max-width: 800px; /* Limitar el ancho máximo del texto */
+}
+
+/* Imagen */
+#quienessomos img {
+  max-width: 100%; /* Imagen responsiva */
+  height: auto; /* Mantiene las proporciones */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #quienessomos {
+    text-align: center; /* Centrar todo en pantallas pequeñas */
+  }
+
+  #quienessomos .row {
+    flex-direction: column; /* Cambiar a diseño vertical */
+  }
+
+  #quienessomos img {
+    margin-bottom: 20px; /* Espaciado entre imagen y texto */
+  }
+}
+
+/* General styling for the mission section */
+#vision {
+  padding-top: 60px;
+  padding-bottom: 30px; /* Añade espacio inferior */
+  background-color: #f9f9f9; /* Fondo suave */
+}
+
+#vision h1 {
+  font-size: 2.5rem; /* Título destacado */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Color oscuro para contraste */
+  text-align: center; /* Centrar título */
+}
+
+#vision p {
+  font-size: 1.2rem; /* Tamaño de texto agradable */
+  line-height: 1.6; /* Espaciado entre líneas */
+  text-align: justify; /* Justifica el texto para un aspecto formal */
+  color: #555; /* Color gris para el texto */
+  margin-bottom: 20px;
+}
+
+/* Styling for the image */
+#vision img {
+  width: 100%; /* Imagen responsiva */
+  max-width: 300px; /* Tamaño máximo */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 0 auto; /* Centrar en el contenedor */
+  display: block;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #vision {
+    text-align: center; /* Centrar texto e imagen en pantallas pequeñas */
+  }
+
+  #vision .row {
+    flex-direction: column-reverse; /* Imagen debajo del texto */
+  }
+
+  #vision img {
+    margin-top: 20px; /* Espaciado superior en pantallas pequeñas */
+  }
+}
+
+
+  /* General styling */
+#vision-section {
+  padding-top: 60px;
+  padding-bottom: 30px; /* Espaciado inferior adicional */
+  background-color: #f9f9f9; /* Fondo suave para destacar la sección */
+}
+
+#vision-section h2 {
+  font-size: 2rem; /* Tamaño destacado para el título */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Color oscuro para legibilidad */
+}
+
+#vision-section p {
+  font-size: 1.2rem; /* Texto un poco más grande */
+  line-height: 1.6; /* Mejor separación entre líneas */
+  color: #555; /* Color gris suave */
+  text-align: justify; /* Alineación justificada para elegancia */
+  margin: 0 auto; /* Centrar texto si el contenedor es más ancho */
+  max-width: 800px; /* Limitar ancho máximo del texto */
+}
+
+/* Imagen */
+#vision-section img {
+  width: 100%; /* Ajustar al ancho del contenedor */
+  max-width: 250px; /* Tamaño máximo */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #vision-section {
+    text-align: center; /* Centrar texto e imagen en pantallas pequeñas */
+  }
+
+  #vision-section .row {
+    flex-direction: column; /* Cambiar a columnas en pantallas pequeñas */
+  }
+
+  #vision-section img {
+    margin-bottom: 20px; /* Espacio inferior para la imagen */
+  }
+}
+
+  
